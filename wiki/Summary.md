@@ -102,6 +102,42 @@ Tesi magistrale che applica MAB contestuali al pricing dinamico degli ancillari 
 
 ---
 
+### [[Promotheus_Markdown_ASOS|Promotheus: An End-to-End ML Framework for Optimizing Markdown in Online Fashion E-commerce]]
+*Loh, Khandelwal, Regan, Little (ASOS.com) — KDD 2022*
+
+Framework end-to-end per ottimizzazione del markdown in e-commerce fashion. Combina Ithax (algoritmo supply-side per gestione stock) con un modello di demand forecasting e un ottimizzatore della profondità di sconto. Affronta il problema del partial information con rejection sampling su campagne randomizzate. Validato su test online con uplift significativo su revenue e profitto.
+
+→ [[full_length/Promotheus_Markdown_ASOS|Leggi]]
+
+---
+
+### [[Markdown_Pricing_Lagrangian_Zalando|Tricks from the Trade for Large-Scale Markdown Pricing: Heuristic Cut Generation for Lagrangian Decomposition]]
+*Streeck, Gellert, Schmitt, Dipkaya, Fux, Januschowski (Zalando SE), Berthold (TU Berlin) — 2025*
+
+Approccio "predict-then-optimize" per markdown pricing su scala industriale. Propone una decomposizione lagrangiana per risolvere il MIP intractabile, con generazione euristica di cutting planes basata su pattern ricorrenti nelle soluzioni passate. Su 86 istanze difficili Zalando, riduce drasticamente i tempi di convergenza mantenendo la qualità della soluzione e migliorando i KPI commerciali.
+
+→ [[full_length/Markdown_Pricing_Lagrangian_Zalando|Leggi]]
+
+---
+
+### [[Dynamic_Pricing_Reference_Effects|Dynamic Pricing and Learning with Long-term Reference Effects]]
+*Shipra Agrawal (Columbia), Wei Tang — 2024*
+
+Studia il dynamic pricing quando i clienti confrontano il prezzo corrente con la media storica dei prezzi passati (reference price mechanism). Dimostra che una markdown policy è near-optimal indipendentemente dai parametri del modello. Propone un algoritmo di learning con regret Õ(√T) che impara la domanda mentre ottimizza il pricing rispettando il vincolo di monotonia decrescente.
+
+→ [[full_length/Dynamic_Pricing_Reference_Effects|Leggi]]
+
+---
+
+### [[Markdown_Pricing_Parametric_Demand|Markdown Pricing Under an Unknown Parametric Demand Model]]
+*Su Jia (Cornell), Andrew A. Li, R. Ravi (Carnegie Mellon) — 2023*
+
+Studia il minimax regret del markdown pricing (prezzi monotonicamente decrescenti) con domanda parametrica sconosciuta. Introduce la nozione di "crossing number" k per caratterizzare la complessità della famiglia di domanda e dimostra regret bound tight Õ(n^{(k+1)/(k+2)}) per ogni k. Colma un gap aperto nella letteratura: con monotonicity, la complessità è strettamente intermedia tra il caso libero e quello vincolato.
+
+→ [[full_length/Markdown_Pricing_Parametric_Demand|Leggi]]
+
+---
+
 ## Claude & Agentic Systems
 
 ### [[Claude_Certified_Architect_Foundations|Claude Certified Architect – Foundations Certification Exam Guide]]
