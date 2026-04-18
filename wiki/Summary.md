@@ -138,6 +138,15 @@ Studia il minimax regret del markdown pricing (prezzi monotonicamente decrescent
 
 ---
 
+### [[Demand_Functions_Survey|Demand Functions in Decision Modeling: A Comprehensive Survey and Research Directions]]
+*Jian Huang, Mingming Leng, Mahmut Parlar — Decision Sciences 2012*
+
+Survey completo di 6 categorie di modelli di domanda usati in economics e operations management: (i) price, (ii) rebate, (iii) leadtime, (iv) space, (v) quality, (vi) advertising. Per ogni categoria analizza forme funzionali (lineare, power/iso-elastic, MNL, MCI), modelli single-firm e game-theoretic multi-firm, proprietà, vantaggi/svantaggi e direzioni di ricerca aperte.
+
+→ [[full_length/Demand_Functions_Survey|Leggi]]
+
+---
+
 ## Claude & Agentic Systems
 
 ### [[Claude_Certified_Architect_Foundations|Claude Certified Architect – Foundations Certification Exam Guide]]
