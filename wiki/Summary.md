@@ -75,6 +75,15 @@ Sistema a due stadi che combina il ranker meta-learning Juggler con un MAB conte
 
 ## Dynamic Pricing
 
+### [[DISCO_Bandit_Discount_Allocation|DISCO: An End-to-End Bandit Framework for Personalised Discount Allocation]]
+*Zhang, Howson, Savva, Loh (ASOS.com) — 2024*
+
+Framework contextual bandit end-to-end per l'allocazione personalizzata di codici sconto in e-commerce. Usa RBF per encoding continuo dello spazio azioni (information sharing tra sconti simili), DNN per context embedding cliente, Thompson Sampling con Bayesian log-linear regression e integer program per controllo operativo del budget. A/B test online: +1.12% average basket value vs legacy.
+
+→ [[full_length/DISCO_Bandit_Discount_Allocation|Leggi]]
+
+---
+
 ### [[ML_Price_Sensitivity_Airline|ML Framework for Robust Price-Sensitivity Estimation — Airline Pricing]]
 *Kumar, Boluki, Isler, Rauch, Walczak (PROS) — 2022*
 
@@ -90,3 +99,14 @@ Framework semi-parametrico a due stadi per stimare price elasticity da dati osse
 Tesi magistrale che applica MAB contestuali al pricing dinamico degli ancillari aerei. Contributo chiave: strategia "extended play" che sfrutta la monotonicità del WTP per estrarre segnale da più price point per sessione. Propone DEGLMUCB e OORMLP-β. I contextual bandit con extended play risultano i più performanti e robusti.
 
 → [[full_length/Dynamic_Pricing_Airline_Ancillaries|Leggi]]
+
+---
+
+## Claude & Agentic Systems
+
+### [[Claude_Certified_Architect_Foundations|Claude Certified Architect – Foundations Certification Exam Guide]]
+*Anthropic — 2025*
+
+Guida ufficiale all'esame di certificazione Claude Certified Architect – Foundations (score minimo 720/1000). Copre 5 domini: Agentic Architecture & Orchestration (27%), Tool Design & MCP Integration (18%), Claude Code Configuration (20%), Prompt Engineering & Structured Output (20%), Context Management & Reliability (15%). Include scenari pratici, domande campione con spiegazioni e 4 esercizi hands-on.
+
+→ [[full_length/Claude_Certified_Architect_Foundations|Leggi]]
